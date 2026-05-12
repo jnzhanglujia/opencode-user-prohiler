@@ -36,14 +36,14 @@ Copy the entire `user-context-profile` folder into your agent's skills directory
 Add the following to your project's `AGENTS.md` file:
 
 ```markdown
-每次对话开始时，自动执行以下步骤：
-1. 加载 `user-context-profile` skill
-2. 读取 `user-data.json` 中的用户画像数据
-3. 根据画像为用户提供个性化服务
+At the start of every conversation, automatically:
+1. Load the `user-context-profile` skill
+2. Read `user-data.json` for user profile data
+3. Tailor all responses based on the stored profile
 ```
 
 #### 3. Run the Survey
-Start a new conversation and say **"填写画像"** or **"run user context survey"**. The agent will ask a series of ~25 questions covering all profile dimensions. At the end, review the summary and type **"提交"** to save.
+Start a new conversation and say **"run user context survey"**. The agent will ask a series of ~25 questions covering all profile dimensions. At the end, review the summary and type **"submit"** to save.
 
 #### 4. Done!
 Now every time you ask the agent to plan or build something, it will automatically consult your profile and make personalized recommendations.
@@ -60,9 +60,9 @@ user-context-profile/
 ```
 
 ### Updating Your Profile
-- **In conversation**: tell the agent "把我的底色改成深蓝" or "更新我的技术栈，加个Rust" — it will update `user-data.json` automatically.
+- **In conversation**: tell the agent "update my tech stack, add Rust" or "change communication style to concise" — it will update `user-data.json` automatically.
 - **Manually**: edit `user-data.json` directly.
-- **CLI**: `python scripts/update_helper.py --path personal_info.name --value '新名字'`
+- **CLI**: `python scripts/update_helper.py --path personal_info.name --value 'Your Name'`
 
 ### Privacy
 - All data is stored **locally only** — never sent to any external API.
