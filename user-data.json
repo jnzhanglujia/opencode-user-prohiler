@@ -1,0 +1,50 @@
+﻿{
+  "schema_version": "2.0",
+  "personal_info": {
+    "name": "你的称呼",
+    "gender": "unknown",
+    "age_range": "unknown",
+    "height_cm": "unknown",
+    "weight_kg": "unknown",
+    "education": "unknown",
+    "hobbies": [],
+    "personality": "unknown",
+    "communication_style": "unknown",
+    "learning_style": "unknown",
+    "best_work_hours": "unknown",
+    "best_work_time": "unknown",
+    "occupation": "unknown",
+    "dev_role": "unknown",
+    "work_style": "unknown"
+  },
+  "tech_stack": {
+    "os": "unknown",
+    "ide": "unknown",
+    "frontend": [],
+    "backend": [],
+    "frontend_framework_pref": "unknown",
+    "backend_language_pref": "unknown",
+    "database_pref": "unknown",
+    "infra": [],
+    "testing": [],
+    "avoid": [],
+    "package_manager": "unknown",
+    "skill_level": "unknown"
+  },
+  "preferences": {
+    "ui_style": "unknown",
+    "architecture": "unknown",
+    "error_handling": "unknown",
+    "documentation": "unknown",
+    "git_workflow": "unknown"
+  },
+  "constraints": {
+    "budget": "unknown",
+    "performance_target": "unknown",
+    "compliance": "unknown",
+    "accessibility": "unknown"
+  },
+  "project_types": [],
+  "projects": [],
+  "history": []
+}
